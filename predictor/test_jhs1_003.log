@@ -1,0 +1,330 @@
+/home/tony/code/accident/predictor/lib/predict/gat.py:26: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_em_img.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:27: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_em_obj.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:28: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_fusion.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:29: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_out.weight, mean=0, std=0.01)
+loading model from models/predictor_jhmdb003_s1/model-epoch-1.pkl
+/usr/local/lib/python3.5/dist-packages/torch/nn/functional.py:995: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+loss tensor(21473.9453, device='cuda:0')
+acc: 10%: 0.257, 20%: 0.250, 30%: 0.243, 40%: 0.257, 50%:0.250
+time:  27.083279609680176
+loading model from models/predictor_jhmdb003_s1/model-epoch-2.pkl
+loss tensor(24490.7422, device='cuda:0')
+acc: 10%: 0.224, 20%: 0.228, 30%: 0.220, 40%: 0.220, 50%:0.216
+time:  11.881704092025757
+loading model from models/predictor_jhmdb003_s1/model-epoch-3.pkl
+loss tensor(24622.8809, device='cuda:0')
+acc: 10%: 0.302, 20%: 0.306, 30%: 0.321, 40%: 0.332, 50%:0.336
+time:  12.110396385192871
+loading model from models/predictor_jhmdb003_s1/model-epoch-4.pkl
+loss tensor(29446.3008, device='cuda:0')
+acc: 10%: 0.295, 20%: 0.291, 30%: 0.299, 40%: 0.299, 50%:0.299
+time:  12.176573038101196
+loading model from models/predictor_jhmdb003_s1/model-epoch-5.pkl
+loss tensor(24457.9629, device='cuda:0')
+acc: 10%: 0.325, 20%: 0.336, 30%: 0.343, 40%: 0.354, 50%:0.354
+time:  11.892109155654907
+loading model from models/predictor_jhmdb003_s1/model-epoch-6.pkl
+loss tensor(24252.4336, device='cuda:0')
+acc: 10%: 0.373, 20%: 0.388, 30%: 0.403, 40%: 0.410, 50%:0.418
+time:  11.719565868377686
+loading model from models/predictor_jhmdb003_s1/model-epoch-7.pkl
+loss tensor(24627.3145, device='cuda:0')
+acc: 10%: 0.414, 20%: 0.429, 30%: 0.425, 40%: 0.425, 50%:0.437
+time:  11.807791948318481
+loading model from models/predictor_jhmdb003_s1/model-epoch-8.pkl
+loss tensor(31383.9492, device='cuda:0')
+acc: 10%: 0.340, 20%: 0.354, 30%: 0.343, 40%: 0.354, 50%:0.362
+time:  12.063680171966553
+loading model from models/predictor_jhmdb003_s1/model-epoch-9.pkl
+loss tensor(38919.6016, device='cuda:0')
+acc: 10%: 0.272, 20%: 0.284, 30%: 0.284, 40%: 0.302, 50%:0.313
+time:  11.91508436203003
+loading model from models/predictor_jhmdb003_s1/model-epoch-10.pkl
+loss tensor(31938.9668, device='cuda:0')
+acc: 10%: 0.369, 20%: 0.362, 30%: 0.366, 40%: 0.373, 50%:0.377
+time:  12.25720477104187
+loading model from models/predictor_jhmdb003_s1/model-epoch-11.pkl
+loss tensor(32279.0566, device='cuda:0')
+acc: 10%: 0.321, 20%: 0.336, 30%: 0.343, 40%: 0.343, 50%:0.347
+time:  12.190574884414673
+loading model from models/predictor_jhmdb003_s1/model-epoch-12.pkl
+loss tensor(41879.0117, device='cuda:0')
+acc: 10%: 0.313, 20%: 0.310, 30%: 0.310, 40%: 0.321, 50%:0.325
+time:  11.954736709594727
+loading model from models/predictor_jhmdb003_s1/model-epoch-13.pkl
+loss tensor(32237.3027, device='cuda:0')
+acc: 10%: 0.388, 20%: 0.381, 30%: 0.403, 40%: 0.407, 50%:0.414
+time:  18.131547689437866
+loading model from models/predictor_jhmdb003_s1/model-epoch-14.pkl
+loss tensor(35866.7656, device='cuda:0')
+acc: 10%: 0.354, 20%: 0.332, 30%: 0.351, 40%: 0.362, 50%:0.369
+time:  17.908545970916748
+loading model from models/predictor_jhmdb003_s1/model-epoch-15.pkl
+loss tensor(41635.4375, device='cuda:0')
+acc: 10%: 0.313, 20%: 0.321, 30%: 0.332, 40%: 0.336, 50%:0.340
+time:  17.933411836624146
+loading model from models/predictor_jhmdb003_s1/model-epoch-16.pkl
+loss tensor(41359.8359, device='cuda:0')
+acc: 10%: 0.347, 20%: 0.351, 30%: 0.351, 40%: 0.366, 50%:0.366
+time:  18.01085352897644
+loading model from models/predictor_jhmdb003_s1/model-epoch-17.pkl
+loss tensor(39010.2031, device='cuda:0')
+acc: 10%: 0.325, 20%: 0.336, 30%: 0.332, 40%: 0.340, 50%:0.354
+time:  18.14138627052307
+loading model from models/predictor_jhmdb003_s1/model-epoch-18.pkl
+loss tensor(48971.1641, device='cuda:0')
+acc: 10%: 0.287, 20%: 0.287, 30%: 0.302, 40%: 0.310, 50%:0.313
+time:  18.169684886932373
+loading model from models/predictor_jhmdb003_s1/model-epoch-19.pkl
+loss tensor(43944.2031, device='cuda:0')
+acc: 10%: 0.396, 20%: 0.377, 30%: 0.381, 40%: 0.396, 50%:0.392
+time:  18.126764059066772
+loading model from models/predictor_jhmdb003_s1/model-epoch-20.pkl
+loss tensor(36682.5312, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.429, 30%: 0.418, 40%: 0.425, 50%:0.440
+time:  18.1187105178833
+loading model from models/predictor_jhmdb003_s1/model-epoch-21.pkl
+loss tensor(35320.0703, device='cuda:0')
+acc: 10%: 0.403, 20%: 0.399, 30%: 0.392, 40%: 0.422, 50%:0.429
+time:  18.168338298797607
+loading model from models/predictor_jhmdb003_s1/model-epoch-22.pkl
+loss tensor(59025.6836, device='cuda:0')
+acc: 10%: 0.384, 20%: 0.377, 30%: 0.381, 40%: 0.381, 50%:0.377
+time:  18.177819967269897
+loading model from models/predictor_jhmdb003_s1/model-epoch-23.pkl
+loss tensor(65716.9375, device='cuda:0')
+acc: 10%: 0.343, 20%: 0.362, 30%: 0.366, 40%: 0.373, 50%:0.373
+time:  18.009480237960815
+loading model from models/predictor_jhmdb003_s1/model-epoch-24.pkl
+loss tensor(52323.4180, device='cuda:0')
+acc: 10%: 0.392, 20%: 0.381, 30%: 0.381, 40%: 0.392, 50%:0.403
+time:  18.568559885025024
+loading model from models/predictor_jhmdb003_s1/model-epoch-25.pkl
+loss tensor(44691.6719, device='cuda:0')
+acc: 10%: 0.396, 20%: 0.414, 30%: 0.410, 40%: 0.410, 50%:0.410
+time:  18.18518328666687
+loading model from models/predictor_jhmdb003_s1/model-epoch-26.pkl
+loss tensor(51014.3086, device='cuda:0')
+acc: 10%: 0.351, 20%: 0.354, 30%: 0.366, 40%: 0.366, 50%:0.373
+time:  18.221935033798218
+loading model from models/predictor_jhmdb003_s1/model-epoch-27.pkl
+loss tensor(67193.8594, device='cuda:0')
+acc: 10%: 0.321, 20%: 0.328, 30%: 0.336, 40%: 0.336, 50%:0.347
+time:  18.255241870880127
+loading model from models/predictor_jhmdb003_s1/model-epoch-28.pkl
+loss tensor(65063.8242, device='cuda:0')
+acc: 10%: 0.343, 20%: 0.362, 30%: 0.369, 40%: 0.373, 50%:0.373
+time:  18.2261483669281
+loading model from models/predictor_jhmdb003_s1/model-epoch-29.pkl
+loss tensor(67956.3125, device='cuda:0')
+acc: 10%: 0.325, 20%: 0.340, 30%: 0.343, 40%: 0.351, 50%:0.358
+time:  18.179731130599976
+loading model from models/predictor_jhmdb003_s1/model-epoch-30.pkl
+loss tensor(88737.7812, device='cuda:0')
+acc: 10%: 0.321, 20%: 0.317, 30%: 0.325, 40%: 0.328, 50%:0.325
+time:  18.2227680683136
+loading model from models/predictor_jhmdb003_s1/model-epoch-31.pkl
+loss tensor(61236.8633, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.392, 30%: 0.392, 40%: 0.403, 50%:0.403
+time:  18.178342580795288
+loading model from models/predictor_jhmdb003_s1/model-epoch-32.pkl
+loss tensor(58981.8555, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.373, 30%: 0.377, 40%: 0.384, 50%:0.392
+time:  18.16120195388794
+loading model from models/predictor_jhmdb003_s1/model-epoch-33.pkl
+loss tensor(47405.3359, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.396, 30%: 0.407, 40%: 0.414, 50%:0.414
+time:  18.208642959594727
+loading model from models/predictor_jhmdb003_s1/model-epoch-34.pkl
+loss tensor(72141.8984, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.373, 30%: 0.373, 40%: 0.377, 50%:0.384
+time:  18.205709218978882
+loading model from models/predictor_jhmdb003_s1/model-epoch-35.pkl
+loss tensor(50948.9805, device='cuda:0')
+acc: 10%: 0.451, 20%: 0.451, 30%: 0.440, 40%: 0.440, 50%:0.437
+time:  18.33612370491028
+loading model from models/predictor_jhmdb003_s1/model-epoch-36.pkl
+loss tensor(77803.5703, device='cuda:0')
+acc: 10%: 0.354, 20%: 0.377, 30%: 0.384, 40%: 0.392, 50%:0.388
+time:  18.266838788986206
+loading model from models/predictor_jhmdb003_s1/model-epoch-37.pkl
+loss tensor(74271.7578, device='cuda:0')
+acc: 10%: 0.366, 20%: 0.362, 30%: 0.362, 40%: 0.384, 50%:0.384
+time:  18.24912667274475
+loading model from models/predictor_jhmdb003_s1/model-epoch-38.pkl
+loss tensor(66024.7031, device='cuda:0')
+acc: 10%: 0.399, 20%: 0.407, 30%: 0.403, 40%: 0.407, 50%:0.410
+time:  18.239622592926025
+loading model from models/predictor_jhmdb003_s1/model-epoch-39.pkl
+loss tensor(88500.8906, device='cuda:0')
+acc: 10%: 0.358, 20%: 0.369, 30%: 0.388, 40%: 0.381, 50%:0.392
+time:  18.195895195007324
+loading model from models/predictor_jhmdb003_s1/model-epoch-40.pkl
+loss tensor(62361.9531, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.418, 30%: 0.410, 40%: 0.422, 50%:0.425
+time:  18.20745611190796
+loading model from models/predictor_jhmdb003_s1/model-epoch-41.pkl
+loss tensor(64275.7812, device='cuda:0')
+acc: 10%: 0.396, 20%: 0.414, 30%: 0.410, 40%: 0.410, 50%:0.407
+time:  18.227660417556763
+loading model from models/predictor_jhmdb003_s1/model-epoch-42.pkl
+loss tensor(62366.1250, device='cuda:0')
+acc: 10%: 0.403, 20%: 0.410, 30%: 0.403, 40%: 0.410, 50%:0.414
+time:  18.178081512451172
+loading model from models/predictor_jhmdb003_s1/model-epoch-43.pkl
+loss tensor(72447.2109, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.384, 30%: 0.403, 40%: 0.403, 50%:0.403
+time:  18.217522382736206
+loading model from models/predictor_jhmdb003_s1/model-epoch-44.pkl
+loss tensor(63645.4102, device='cuda:0')
+acc: 10%: 0.403, 20%: 0.407, 30%: 0.407, 40%: 0.410, 50%:0.418
+time:  18.187451124191284
+loading model from models/predictor_jhmdb003_s1/model-epoch-45.pkl
+loss tensor(89116.7344, device='cuda:0')
+acc: 10%: 0.373, 20%: 0.358, 30%: 0.373, 40%: 0.373, 50%:0.366
+time:  18.17370319366455
+loading model from models/predictor_jhmdb003_s1/model-epoch-46.pkl
+loss tensor(76375.7266, device='cuda:0')
+acc: 10%: 0.366, 20%: 0.381, 30%: 0.366, 40%: 0.366, 50%:0.366
+time:  18.18549871444702
+loading model from models/predictor_jhmdb003_s1/model-epoch-47.pkl
+loss tensor(89690.7969, device='cuda:0')
+acc: 10%: 0.299, 20%: 0.302, 30%: 0.299, 40%: 0.310, 50%:0.313
+time:  18.861692905426025
+loading model from models/predictor_jhmdb003_s1/model-epoch-48.pkl
+loss tensor(94847.5781, device='cuda:0')
+acc: 10%: 0.332, 20%: 0.321, 30%: 0.325, 40%: 0.332, 50%:0.343
+time:  18.18506145477295
+loading model from models/predictor_jhmdb003_s1/model-epoch-49.pkl
+loss tensor(89731.5312, device='cuda:0')
+acc: 10%: 0.358, 20%: 0.351, 30%: 0.358, 40%: 0.354, 50%:0.358
+time:  18.2063250541687
+loading model from models/predictor_jhmdb003_s1/model-epoch-50.pkl
+loss tensor(70126.7500, device='cuda:0')
+acc: 10%: 0.396, 20%: 0.410, 30%: 0.440, 40%: 0.444, 50%:0.433
+time:  18.18420958518982
+loading model from models/predictor_jhmdb003_s1/model-epoch-51.pkl
+loss tensor(68638.5234, device='cuda:0')
+acc: 10%: 0.410, 20%: 0.407, 30%: 0.418, 40%: 0.437, 50%:0.444
+time:  18.25749444961548
+loading model from models/predictor_jhmdb003_s1/model-epoch-52.pkl
+loss tensor(68346.8594, device='cuda:0')
+acc: 10%: 0.407, 20%: 0.418, 30%: 0.440, 40%: 0.444, 50%:0.444
+time:  18.27886700630188
+loading model from models/predictor_jhmdb003_s1/model-epoch-53.pkl
+loss tensor(68403.6641, device='cuda:0')
+acc: 10%: 0.414, 20%: 0.429, 30%: 0.433, 40%: 0.437, 50%:0.437
+time:  18.235117197036743
+loading model from models/predictor_jhmdb003_s1/model-epoch-54.pkl
+loss tensor(68500.5234, device='cuda:0')
+acc: 10%: 0.414, 20%: 0.429, 30%: 0.433, 40%: 0.437, 50%:0.437
+time:  18.217347383499146
+loading model from models/predictor_jhmdb003_s1/model-epoch-55.pkl
+loss tensor(68420.5156, device='cuda:0')
+acc: 10%: 0.414, 20%: 0.425, 30%: 0.429, 40%: 0.429, 50%:0.429
+time:  18.2262442111969
+loading model from models/predictor_jhmdb003_s1/model-epoch-56.pkl
+loss tensor(68339.2031, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.422, 30%: 0.425, 40%: 0.440, 50%:0.440
+time:  18.235526084899902
+loading model from models/predictor_jhmdb003_s1/model-epoch-57.pkl
+loss tensor(68398.2656, device='cuda:0')
+acc: 10%: 0.425, 20%: 0.425, 30%: 0.425, 40%: 0.433, 50%:0.437
+time:  18.239280462265015
+loading model from models/predictor_jhmdb003_s1/model-epoch-58.pkl
+loss tensor(68421.1172, device='cuda:0')
+acc: 10%: 0.429, 20%: 0.425, 30%: 0.425, 40%: 0.433, 50%:0.433
+time:  18.03662109375
+loading model from models/predictor_jhmdb003_s1/model-epoch-59.pkl
+loss tensor(68617.8281, device='cuda:0')
+acc: 10%: 0.429, 20%: 0.418, 30%: 0.418, 40%: 0.429, 50%:0.429
+time:  18.45919442176819
+loading model from models/predictor_jhmdb003_s1/model-epoch-60.pkl
+loss tensor(68649.9688, device='cuda:0')
+acc: 10%: 0.422, 20%: 0.407, 30%: 0.418, 40%: 0.429, 50%:0.429
+time:  18.13242197036743
+loading model from models/predictor_jhmdb003_s1/model-epoch-61.pkl
+loss tensor(68842.1797, device='cuda:0')
+acc: 10%: 0.422, 20%: 0.410, 30%: 0.425, 40%: 0.429, 50%:0.433
+time:  18.201737642288208
+loading model from models/predictor_jhmdb003_s1/model-epoch-62.pkl
+loss tensor(68330.6484, device='cuda:0')
+acc: 10%: 0.429, 20%: 0.414, 30%: 0.425, 40%: 0.433, 50%:0.437
+time:  18.148618459701538
+loading model from models/predictor_jhmdb003_s1/model-epoch-63.pkl
+loss tensor(68574.9062, device='cuda:0')
+acc: 10%: 0.425, 20%: 0.418, 30%: 0.425, 40%: 0.429, 50%:0.429
+time:  18.141492128372192
+loading model from models/predictor_jhmdb003_s1/model-epoch-64.pkl
+loss tensor(68634.9141, device='cuda:0')
+acc: 10%: 0.425, 20%: 0.414, 30%: 0.422, 40%: 0.425, 50%:0.429
+time:  18.229184865951538
+loading model from models/predictor_jhmdb003_s1/model-epoch-65.pkl
+loss tensor(68880.4922, device='cuda:0')
+acc: 10%: 0.425, 20%: 0.418, 30%: 0.425, 40%: 0.429, 50%:0.425
+time:  18.20416021347046
+loading model from models/predictor_jhmdb003_s1/model-epoch-66.pkl
+loss tensor(68730.8359, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.422, 30%: 0.429, 40%: 0.437, 50%:0.440
+time:  18.160325527191162
+loading model from models/predictor_jhmdb003_s1/model-epoch-67.pkl
+loss tensor(68888.3281, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.410, 30%: 0.422, 40%: 0.433, 50%:0.433
+time:  18.111345052719116
+loading model from models/predictor_jhmdb003_s1/model-epoch-68.pkl
+loss tensor(68737.0078, device='cuda:0')
+acc: 10%: 0.422, 20%: 0.418, 30%: 0.422, 40%: 0.440, 50%:0.444
+time:  18.14592671394348
+loading model from models/predictor_jhmdb003_s1/model-epoch-69.pkl
+loss tensor(68628.1875, device='cuda:0')
+acc: 10%: 0.422, 20%: 0.418, 30%: 0.422, 40%: 0.437, 50%:0.440
+time:  18.054885149002075
+loading model from models/predictor_jhmdb003_s1/model-epoch-70.pkl
+loss tensor(69304.2734, device='cuda:0')
+acc: 10%: 0.418, 20%: 0.422, 30%: 0.425, 40%: 0.433, 50%:0.433
+time:  18.20144534111023
+loading model from models/predictor_jhmdb003_s1/model-epoch-71.pkl
+loss tensor(69134.6719, device='cuda:0')
+acc: 10%: 0.422, 20%: 0.429, 30%: 0.433, 40%: 0.444, 50%:0.448
+time:  18.080938577651978
+loading model from models/predictor_jhmdb003_s1/model-epoch-72.pkl
+loss tensor(68775.2109, device='cuda:0')
+acc: 10%: 0.429, 20%: 0.418, 30%: 0.433, 40%: 0.437, 50%:0.444
+time:  18.484012365341187
+loading model from models/predictor_jhmdb003_s1/model-epoch-73.pkl
+loss tensor(69534.2578, device='cuda:0')
+acc: 10%: 0.429, 20%: 0.433, 30%: 0.433, 40%: 0.437, 50%:0.444
+time:  18.230947732925415
+loading model from models/predictor_jhmdb003_s1/model-epoch-74.pkl
+loss tensor(68232.7109, device='cuda:0')
+acc: 10%: 0.425, 20%: 0.425, 30%: 0.425, 40%: 0.437, 50%:0.444
+time:  18.18499493598938
+loading model from models/predictor_jhmdb003_s1/model-epoch-75.pkl
+loss tensor(85357.6875, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.396, 30%: 0.396, 40%: 0.403, 50%:0.392
+time:  18.383808374404907
+loading model from models/predictor_jhmdb003_s1/model-epoch-76.pkl
+loss tensor(101136.4375, device='cuda:0')
+acc: 10%: 0.340, 20%: 0.347, 30%: 0.354, 40%: 0.343, 50%:0.358
+time:  18.17947816848755
+loading model from models/predictor_jhmdb003_s1/model-epoch-77.pkl
+loss tensor(111490.8906, device='cuda:0')
+acc: 10%: 0.328, 20%: 0.332, 30%: 0.332, 40%: 0.336, 50%:0.347
+time:  18.201416492462158
+loading model from models/predictor_jhmdb003_s1/model-epoch-78.pkl
+loss tensor(107201.8672, device='cuda:0')
+acc: 10%: 0.381, 20%: 0.384, 30%: 0.381, 40%: 0.381, 50%:0.392
+time:  18.1693856716156
+loading model from models/predictor_jhmdb003_s1/model-epoch-79.pkl
+loss tensor(104850.1484, device='cuda:0')
+acc: 10%: 0.299, 20%: 0.321, 30%: 0.321, 40%: 0.336, 50%:0.343
+time:  18.19485855102539
+loading model from models/predictor_jhmdb003_s1/model-epoch-80.pkl
+loss tensor(133285.3750, device='cuda:0')
+acc: 10%: 0.299, 20%: 0.310, 30%: 0.321, 40%: 0.328, 50%:0.340
+time:  18.212552309036255

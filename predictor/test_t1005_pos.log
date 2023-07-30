@@ -1,0 +1,488 @@
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+/home/tony/code/accident/predictor/lib/predict/gat.py:26: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_em_img.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:27: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_em_obj.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:28: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_fusion.weight, mean=0, std=0.01)
+/home/tony/code/accident/predictor/lib/predict/gat.py:29: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  nn.init.normal(self.fc_out.weight, mean=0, std=0.01)
+loading model from models/predictor_t1005_pos/model-epoch-1.pkl
+/usr/local/lib/python3.5/dist-packages/torch/nn/functional.py:995: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=663 error=11 : invalid argument
+(466, 1)
+(466, 90)
+loss tensor([10031.3438], device='cuda:0')
+Average Precision= 0.6827 ,mean Time to accident= 1.731
+Recall@80%, Time to accident= 2.848
+time:  723.6067049503326
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-2.pkl
+(466, 1)
+(466, 90)
+loss tensor([9084.7773], device='cuda:0')
+Average Precision= 0.7318 ,mean Time to accident= 1.38
+Recall@80%, Time to accident= 1.877
+time:  473.36615657806396
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-3.pkl
+(466, 1)
+(466, 90)
+loss tensor([10143.7627], device='cuda:0')
+Average Precision= 0.7493 ,mean Time to accident= 1.404
+Recall@80%, Time to accident= 2.275
+time:  491.8125386238098
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-4.pkl
+(466, 1)
+(466, 90)
+loss tensor([10130.7822], device='cuda:0')
+Average Precision= 0.7172 ,mean Time to accident= 1.56
+Recall@80%, Time to accident= 2.106
+time:  493.030047416687
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-5.pkl
+(466, 1)
+(466, 90)
+loss tensor([10381.4883], device='cuda:0')
+Average Precision= 0.7233 ,mean Time to accident= 1.518
+Recall@80%, Time to accident= 2.328
+time:  615.9458849430084
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-6.pkl
+(466, 1)
+(466, 90)
+loss tensor([11268.0039], device='cuda:0')
+Average Precision= 0.7197 ,mean Time to accident= 1.471
+Recall@80%, Time to accident= 2.299
+time:  575.0459685325623
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-7.pkl
+(466, 1)
+(466, 90)
+loss tensor([12278.5869], device='cuda:0')
+Average Precision= 0.6618 ,mean Time to accident= 1.583
+Recall@80%, Time to accident= 2.431
+time:  559.0450067520142
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-8.pkl
+(466, 1)
+(466, 90)
+loss tensor([11891.9834], device='cuda:0')
+Average Precision= 0.6984 ,mean Time to accident= 1.339
+Recall@80%, Time to accident= 2.072
+time:  590.5134243965149
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-9.pkl
+(466, 1)
+(466, 90)
+loss tensor([13297.1504], device='cuda:0')
+Average Precision= 0.6885 ,mean Time to accident= 1.577
+Recall@80%, Time to accident= 2.307
+time:  553.8489825725555
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-10.pkl
+(466, 1)
+(466, 90)
+loss tensor([15600.6006], device='cuda:0')
+Average Precision= 0.6561 ,mean Time to accident= 1.687
+Recall@80%, Time to accident= 2.779
+time:  542.5546312332153
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-11.pkl
+(466, 1)
+(466, 90)
+loss tensor([13825.0967], device='cuda:0')
+Average Precision= 0.6873 ,mean Time to accident= 1.635
+Recall@80%, Time to accident= 2.581
+time:  612.827290058136
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-12.pkl
+(466, 1)
+(466, 90)
+loss tensor([14123.4863], device='cuda:0')
+Average Precision= 0.6456 ,mean Time to accident= 1.621
+Recall@80%, Time to accident= 2.463
+time:  545.3548939228058
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-13.pkl
+(466, 1)
+(466, 90)
+loss tensor([15423.3350], device='cuda:0')
+Average Precision= 0.6250 ,mean Time to accident= 1.821
+Recall@80%, Time to accident= 2.737
+time:  549.3700859546661
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-14.pkl
+(466, 1)
+(466, 90)
+loss tensor([16983.1973], device='cuda:0')
+Average Precision= 0.5846 ,mean Time to accident= 1.85
+Recall@80%, Time to accident= 2.578
+time:  607.2739408016205
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-15.pkl
+(466, 1)
+(466, 90)
+loss tensor([18192.1250], device='cuda:0')
+Average Precision= 0.6243 ,mean Time to accident= 1.938
+Recall@80%, Time to accident= 3.156
+time:  554.0029180049896
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-16.pkl
+(466, 1)
+(466, 90)
+loss tensor([18925.5605], device='cuda:0')
+Average Precision= 0.6146 ,mean Time to accident= 1.809
+Recall@80%, Time to accident= 2.349
+time:  604.6433820724487
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-17.pkl
+(466, 1)
+(466, 90)
+loss tensor([23676.5625], device='cuda:0')
+Average Precision= 0.5928 ,mean Time to accident= 2.175
+Recall@80%, Time to accident= 3.357
+time:  552.5865998268127
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-18.pkl
+(466, 1)
+(466, 90)
+loss tensor([17890.0703], device='cuda:0')
+Average Precision= 0.6418 ,mean Time to accident= 1.851
+Recall@80%, Time to accident= 2.838
+time:  601.1125264167786
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-19.pkl
+(466, 1)
+(466, 90)
+loss tensor([17651.9785], device='cuda:0')
+Average Precision= 0.6216 ,mean Time to accident= 1.869
+Recall@80%, Time to accident= 2.689
+time:  492.95724630355835
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-20.pkl
+(466, 1)
+(466, 90)
+loss tensor([19303.6445], device='cuda:0')
+Average Precision= 0.6294 ,mean Time to accident= 1.749
+Recall@80%, Time to accident= 2.782
+time:  603.9336941242218
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-21.pkl
+(466, 1)
+(466, 90)
+loss tensor([21169.8789], device='cuda:0')
+Average Precision= 0.6369 ,mean Time to accident= 1.843
+Recall@80%, Time to accident= 2.705
+time:  560.3679099082947
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-22.pkl
+(466, 1)
+(466, 90)
+loss tensor([28710.7422], device='cuda:0')
+Average Precision= 0.6050 ,mean Time to accident= 1.998
+Recall@80%, Time to accident= 3.334
+time:  593.5610246658325
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-23.pkl
+(466, 1)
+(466, 90)
+loss tensor([22100.0566], device='cuda:0')
+Average Precision= 0.6123 ,mean Time to accident= 1.898
+Recall@80%, Time to accident= 2.805
+time:  563.6986348628998
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-24.pkl
+(466, 1)
+(466, 90)
+loss tensor([24166.9766], device='cuda:0')
+Average Precision= 0.6201 ,mean Time to accident= 1.951
+Recall@80%, Time to accident= 2.891
+time:  623.5178399085999
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-25.pkl
+(466, 1)
+(466, 90)
+loss tensor([27905.7051], device='cuda:0')
+Average Precision= 0.5685 ,mean Time to accident= 2.282
+Recall@80%, Time to accident= 3.298
+time:  577.7977938652039
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-26.pkl
+(466, 1)
+(466, 90)
+loss tensor([22602.1152], device='cuda:0')
+Average Precision= 0.6063 ,mean Time to accident= 2.066
+Recall@80%, Time to accident= 3.0
+time:  568.1293077468872
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-27.pkl
+(466, 1)
+(466, 90)
+loss tensor([26306.6250], device='cuda:0')
+Average Precision= 0.5749 ,mean Time to accident= 2.292
+Recall@80%, Time to accident= 3.191
+time:  721.9576888084412
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-28.pkl
+(466, 1)
+(466, 90)
+loss tensor([29396.5684], device='cuda:0')
+Average Precision= 0.5826 ,mean Time to accident= 2.115
+Recall@80%, Time to accident= 3.057
+time:  1117.1377670764923
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-29.pkl
+(466, 1)
+(466, 90)
+loss tensor([29682.8418], device='cuda:0')
+Average Precision= 0.5779 ,mean Time to accident= 2.284
+Recall@80%, Time to accident= 3.404
+time:  631.5419392585754
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-30.pkl
+(466, 1)
+(466, 90)
+loss tensor([36808.4883], device='cuda:0')
+Average Precision= 0.5779 ,mean Time to accident= 2.157
+Recall@80%, Time to accident= 3.779
+time:  589.0754034519196
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-31.pkl
+(466, 1)
+(466, 90)
+loss tensor([28628.6602], device='cuda:0')
+Average Precision= 0.5708 ,mean Time to accident= 2.153
+Recall@80%, Time to accident= 3.23
+time:  561.5754556655884
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-32.pkl
+(466, 1)
+(466, 90)
+loss tensor([23158.2148], device='cuda:0')
+Average Precision= 0.6194 ,mean Time to accident= 1.989
+Recall@80%, Time to accident= 2.765
+time:  607.3447625637054
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-33.pkl
+(466, 1)
+(466, 90)
+loss tensor([94471.0547], device='cuda:0')
+Average Precision= 0.5207 ,mean Time to accident= 2.891
+Recall@80%, Time to accident= 3.62
+time:  627.6743268966675
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-34.pkl
+(466, 1)
+(466, 90)
+loss tensor([27085.9316], device='cuda:0')
+Average Precision= 0.5886 ,mean Time to accident= 2.14
+Recall@80%, Time to accident= 3.098
+time:  870.4578268527985
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-35.pkl
+(466, 1)
+(466, 90)
+loss tensor([31972.9785], device='cuda:0')
+Average Precision= 0.6018 ,mean Time to accident= 2.218
+Recall@80%, Time to accident= 3.501
+time:  722.0625531673431
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-36.pkl
+(466, 1)
+(466, 90)
+loss tensor([34289.6484], device='cuda:0')
+Average Precision= 0.5729 ,mean Time to accident= 2.425
+Recall@80%, Time to accident= 3.737
+time:  922.7997102737427
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-37.pkl
+(466, 1)
+(466, 90)
+loss tensor([31098.3145], device='cuda:0')
+Average Precision= 0.5575 ,mean Time to accident= 2.424
+Recall@80%, Time to accident= 3.321
+time:  1070.021330356598
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-38.pkl
+(466, 1)
+(466, 90)
+loss tensor([39919.6836], device='cuda:0')
+Average Precision= 0.5291 ,mean Time to accident= 2.493
+Recall@80%, Time to accident= 3.371
+time:  917.1745982170105
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-39.pkl
+(466, 1)
+(466, 90)
+loss tensor([34122.9961], device='cuda:0')
+Average Precision= 0.5510 ,mean Time to accident= 2.297
+Recall@80%, Time to accident= 3.303
+time:  1214.867006778717
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+waiting
+loading model from models/predictor_t1005_pos/model-epoch-40.pkl
+(466, 1)
+(466, 90)
+loss tensor([35297.2070], device='cuda:0')
+Average Precision= 0.6330 ,mean Time to accident= 1.933
+Recall@80%, Time to accident= 3.06
+time:  1063.1015977859497

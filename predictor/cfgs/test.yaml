@@ -1,0 +1,21 @@
+# model setting
+model_cfg:
+  # class_type: 'models.ST_GCN_18'
+  in_channels: 1024
+  nhid: 256
+  num_class: 2
+  dropout: 0.4
+  alpha: 0.2
+  nheads: 8
+
+# dataset setting
+dataset_cfg:
+  # class_type: 'dataset.DataFeeder'
+  data_path: './data/detection_res_1218/testing/'
+  
+# dataloader setting
+batch_size: 1
+gpus: 1
+total_epochs: 40
+
+checkpoint_path: 'models/predictor_e0002_ef/model-epoch-{}.pkl'
